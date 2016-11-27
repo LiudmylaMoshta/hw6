@@ -1,0 +1,21 @@
+footer {
+    clear: both;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 400;
+    border-top: 1px solid #b5b5b7;
+    width: 100%;
+    border-top: 1px solid #b5b5b7;
+    div {
+        margin-left: 250px;
+        margin-right: 27px;
+        background-color: #d9dada;
+        padding: 10px 12px;
+        border-radius: 0 0 20px 20px;
+    }
+    &:after {
+        content: url("../image/vector-smart-object.png");
+        text-align: right;
+        float: right
+    }
+}

@@ -1,0 +1,138 @@
+h2 {
+    color: #010101;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.home_page{
+    float: right;
+    width: 529px;
+    border-bottom:1.5px solid #00a7fb;
+
+    article {
+        dl{
+            background:#dfe5e6;
+            color: #505050;
+            font: 400 12px Arial;
+            width: 393px;
+            float: right;
+        }
+        dd, dt {
+            padding: 5px 8px;
+        }
+        dt {
+            width: 218px;
+            float:left;
+        }
+        .info{
+            dd {
+                border-bottom: 2px solid white;
+            }
+        }
+        .contact {
+            dd {
+                &:nth-child(4n) {
+                    background-color: #eef1f2;
+                }
+                a.decor {
+                    text-decoration: none;
+                    color: #000000;
+                }
+            }
+        }
+        .img {
+            width: 102px;
+            float: left;
+            padding:0 10px;
+        }
+        .blue{
+            color: #03a7fe;
+            padding: 15px 0 7px 144px;
+        }
+
+    }
+}
+
+.page2{
+    float: right;
+    width: 529px;
+    font-family: Arial;
+    color: #444;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+h3.h_page2 {
+    color: #03a7fe;
+    font-size: 18px;
+}
+
+h2.purpose_project {
+    color: #010101;
+    font-family: Arial;
+    font-size: 26px;
+    line-height: 33px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #00a7fb;
+}
+
+.img_page2 {
+    width: 527px;
+    height: 180px;
+    background: url("../image/grey_index2.png") no-repeat;
+    text-align: center;
+    padding-top: 42px;
+    margin-top: 8px;
+}
+
+.p_page2 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+article {
+    font-size: 14px;
+    font-family: Arial;
+    float: right;
+    width: 525px;
+    padding-left: 20px;
+    line-height: 18px;
+    color: #505050;
+    .article_top {
+        border-top: 1px solid #00a8ff;
+        margin-bottom: 17px;
+        ul {
+            display: inline-block;
+            li {
+                list-style-type: none;
+                display: inline;
+                a {
+                }
+            }
+        }
+    }
+}
+.link {
+    font-size: 15px;
+    color: #00a8ff;
+}
+.rating {
+    padding: 20px 0;
+
+    .fa {
+        color: #959595;
+        &.active {
+            color: #01a5fc;
+        }
+    }
+
+    a {
+
+    }
+}
+.date {
+    float: right;
+    color: #cdcac9;
+}
+
