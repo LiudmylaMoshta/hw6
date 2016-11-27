@@ -1,0 +1,182 @@
+.registration_login {
+    font: 11px Arial;
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+    border: none;
+    width: 115px;
+    position: relative;
+    float: right;
+    padding: 7px 21px 7px 22px;
+    list-style-type: none;
+    display: inline-block;
+    &:hover {
+        border-radius: 0;
+    }
+    label {
+        input {
+            border: none;
+            font-size: 18px;
+            width: 204px;
+            color: #6badd4;
+            background-color: #d5f1fa;
+            margin-bottom: 6px;
+            padding: 7px 12px 8px;
+            border-radius: 10px;
+            text-align: left;
+        }
+    }
+    button {
+        background-color: $border-color;
+        width: 54px;
+        border-radius: 5px;
+        margin-right: 23px;
+        padding: 10px;
+        &:before {
+            content: url("../image/arrow_submit.png");
+        }
+        border: none;
+    }
+
+}
+.registration_form {
+    .registration {
+        color: #747474;
+        text-decoration: none;
+        border-right: 1px solid #959595;
+        padding-right: 8px;
+        float: left;
+        text-align: center;
+    }
+
+    &:hover {
+        form {
+            display: block;
+        }
+    }
+
+    form {
+        position:absolute;
+        display:none;
+        width: 427px;
+        right: 0;
+        background: url("../image/registr.png") no-repeat;
+        margin-top: 15px;
+        padding: 50px 0 30px;
+
+        input {
+            margin-left: 20px;
+        }
+
+        .logo_face {
+             width: 132px;
+             background-image: radial-gradient(circle 115px at center, #94dbff 0%, #94dbff 27%, #00a8ff 100%);
+             float: right;
+             margin-top: 8px;
+             margin-right: 23px;
+         }
+    }
+}
+.submit_foto{
+    position: relative;
+    overflow: hidden;
+    width: 132px;
+    background-color: white;
+    border: 2px solid $border-color;
+    float: right;
+    margin-right: 23px;
+    border-radius: 10px;
+    text-align: center;
+
+    label{
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        .submit_text {
+            line-height: 33px;
+            color: $border-color;
+            font-size: 14px;
+            padding: 0 15px;
+        }
+        input[type="file"] {
+            display: none;
+        }
+    }
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+.login_form{
+    .login {
+        color: #02a4fa;
+        text-decoration: none;
+        padding-left: 10px;
+        text-align: center;
+    }
+    &:hover{
+        form {
+            display: inline-block;
+        }
+    }
+    form {
+        display: none;
+        width: 427px;
+        background:url("../image/img_login.png") no-repeat;
+        position:absolute;
+        right:0;
+        margin-top: 15px;
+        padding: 50px 0 30px;
+
+        .password{
+            width: 100%;
+            float: right;
+            text-align: right;
+            padding-right: 45px;
+            margin-top: -15px;
+        }
+        label{
+            input{
+                width: 129px;
+                float: left;
+                margin-left: 10px;
+            }
+
+            &:first-child {
+                input {
+                    margin-left: 20px;
+                }
+            }
+
+        }
+    }
+}
+
+.IT {
+    color: #646464;
+    font: 400 15px Helios;
+    text-align: right;
+    padding: 62px 27px 0;
+}
+.logo_text {
+    width: 271px;
+    padding-top: 41px;
+    float: left;
+    a {
+        text-decoration: none;
+        color: #939598;
+        font: 400 21px afklampenborg;
+        display: flex;
+
+        span {
+            align-self: center;
+            margin-left: -5px;
+        }
+        .logo {
+            float: left;
+            display: inline;
+        }
+    }
+}
